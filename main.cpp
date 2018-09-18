@@ -101,7 +101,7 @@ int main()
 	for(int t1=0; t1<at_num; t1++)
 	{
 		if (el_l[at_type[t1]].length() == 1)
-			cout<<el_l[at_type[t1]]<<' '<<at_l[t1]<<endl;
+			cout<<el_l[at_type[t1]]<<"  "<<at_l[t1]<<endl;
 		else
 			cout<<el_l[at_type[t1]]<<' '<<at_l[t1]<<endl;
 	}
